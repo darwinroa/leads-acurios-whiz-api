@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Whiz Api
- * Plugin URI:        https://whiz.one
+ * Plugin URI:        https://github.com/darwinroa/leads-acurios-whiz-api
  * Description:       Integracion de Whiz
  * Version:           2.0.0
  * Requires at least: 5.2
@@ -9,7 +9,7 @@
  * Author:            Franco Caballero, Hendry M. Flores & Darwin Roa
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Update URI:        https://whiz.one
+ * Update URI:        https://github.com/darwinroa/leads-acurios-whiz-api
  * Text Domain:       wp-whiz-api
  * Domain Path:       /languages
  */
