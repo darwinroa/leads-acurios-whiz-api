@@ -1,0 +1,23 @@
+li#toplevel_page_whiz_api_panel_general.current a.current.menu-top.toplevel_page_whiz_api_panel_general{
+    background: white !important;
+}
+li#toplevel_page_whiz_api_panel_general.current .wp-menu-name{
+    color: black !important;
+}
+
+li#toplevel_page_whiz_api_panel_general img{
+    width: 25px;
+    height: auto;
+    padding: 8px 0;
+    object-fit: contain;
+    opacity: 1 !important;
+}
+#leads-header-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.table-wrap {
+    overflow: auto;
+}

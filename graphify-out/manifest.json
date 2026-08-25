@@ -1,0 +1,127 @@
+{
+  "WhizApi/Migrations/WhizMigrationCore.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "3cc83e2db53a46c8020e167e38e69b0a",
+    "semantic_hash": "3cc83e2db53a46c8020e167e38e69b0a"
+  },
+  "WhizApi/Models/WhizApiConfigModel.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "46e660163777d414319ee0a2d1ee9db4",
+    "semantic_hash": "46e660163777d414319ee0a2d1ee9db4"
+  },
+  "WhizApi/Models/WhizModels.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "8affe13ba3b86f784fcdefd5416a632e",
+    "semantic_hash": "8affe13ba3b86f784fcdefd5416a632e"
+  },
+  "WhizApi/Models/WhizSimpleLeadModel.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "5a12cadbb359105ec85e3e5c3456cf8e",
+    "semantic_hash": "5a12cadbb359105ec85e3e5c3456cf8e"
+  },
+  "WhizApi/Routers/MainApiRouter.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "5681f26be359c6d60250ecc84e3081e9",
+    "semantic_hash": "5681f26be359c6d60250ecc84e3081e9"
+  },
+  "WhizApi/Services/WhizApiService.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "3d672fdac82c92b811ef1b197dbe40c6",
+    "semantic_hash": "3d672fdac82c92b811ef1b197dbe40c6"
+  },
+  "WhizApi/Services/WhizCurlService.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "760749dee8b78ccfc72a7a867f882c6e",
+    "semantic_hash": "760749dee8b78ccfc72a7a867f882c6e"
+  },
+  "WhizApi/Views/WhizViews.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "e43b11ffca78cb960e980acb733a7f4d",
+    "semantic_hash": "e43b11ffca78cb960e980acb733a7f4d"
+  },
+  "WhizApi/Views/admin/leads.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "cc719aac93a727dec9776469648f1efd",
+    "semantic_hash": "cc719aac93a727dec9776469648f1efd"
+  },
+  "WhizApi/Views/admin/settings.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "fc13e282528c6df7a5c3189052b14ce3",
+    "semantic_hash": "fc13e282528c6df7a5c3189052b14ce3"
+  },
+  "WhizApi/Views/layout/footer.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "c1a3b001ef470adf9f6f3747aa7d61f1",
+    "semantic_hash": "c1a3b001ef470adf9f6f3747aa7d61f1"
+  },
+  "WhizApi/Views/layout/header.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "829c3ae9393ae8c79611896436f01cbf",
+    "semantic_hash": "829c3ae9393ae8c79611896436f01cbf"
+  },
+  "composer.json": {
+    "mtime": 1753110289.0,
+    "ast_hash": "5d2700c48574b1c322b949588b8991e8",
+    "semantic_hash": "5d2700c48574b1c322b949588b8991e8"
+  },
+  "overwrite.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "29dbc49d3ae6eca49aac39fadce99051",
+    "semantic_hash": "29dbc49d3ae6eca49aac39fadce99051"
+  },
+  "vendor/autoload.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "a67e2d24c0137a1862e5e01a6cf7887b",
+    "semantic_hash": "a67e2d24c0137a1862e5e01a6cf7887b"
+  },
+  "vendor/composer/ClassLoader.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "e0c54362bf87cd4e4504a9f167e9f0ee",
+    "semantic_hash": "e0c54362bf87cd4e4504a9f167e9f0ee"
+  },
+  "vendor/composer/InstalledVersions.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "e11f4eb6913fe2c7f536a30018787c45",
+    "semantic_hash": "e11f4eb6913fe2c7f536a30018787c45"
+  },
+  "vendor/composer/autoload_classmap.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "67037eb3e782aeda831e421530bbad95",
+    "semantic_hash": "67037eb3e782aeda831e421530bbad95"
+  },
+  "vendor/composer/autoload_namespaces.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "eb55365add43350406a22d815fc98f38",
+    "semantic_hash": "eb55365add43350406a22d815fc98f38"
+  },
+  "vendor/composer/autoload_psr4.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "6360c3890001410e1524527ae0813d16",
+    "semantic_hash": "6360c3890001410e1524527ae0813d16"
+  },
+  "vendor/composer/autoload_real.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "f216e27a8b2dec32f3c65bebf9e2fe99",
+    "semantic_hash": "f216e27a8b2dec32f3c65bebf9e2fe99"
+  },
+  "vendor/composer/autoload_static.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "8da8ab907ef698012f339921d1f67bcd",
+    "semantic_hash": "8da8ab907ef698012f339921d1f67bcd"
+  },
+  "vendor/composer/installed.json": {
+    "mtime": 1753110289.0,
+    "ast_hash": "be3df3dc396f3359e3001c671ea5904f",
+    "semantic_hash": "be3df3dc396f3359e3001c671ea5904f"
+  },
+  "vendor/composer/installed.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "929fd6d83cca7557b9610aa39f751167",
+    "semantic_hash": "929fd6d83cca7557b9610aa39f751167"
+  },
+  "wp-whiz-api.php": {
+    "mtime": 1753110289.0,
+    "ast_hash": "c9676d35d2b122532b0d62bb34c7295b",
+    "semantic_hash": "c9676d35d2b122532b0d62bb34c7295b"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "whiz/wp-whiz-api",
+    "authors": [
+        {
+            "name": "Franco Caballero",
+            "email": "hansgianfranco@gmail.com"
+        },
+        {
+            "name": "Hendry M. Flores",
+            "email": "hend_manel001@hotmail.com"
+        },
+        {
+            "name": "Darwin Roa",
+            "email": "darwinmichaelroamora@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WhizApi\\": "WhizApi"
+        }
+    }
+}
