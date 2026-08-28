@@ -22,6 +22,26 @@ class MainApiRouter
     public function initRouters(): void
     {
         add_action('rest_api_init', function () {
+            // Enable CORS headers for cross-domain requests
+            add_filter('rest_pre_serve_request', function ($served, $result, $request, $server) {
+                $origin = get_http_origin();
+                if ($origin) {
+                    header("Access-Control-Allow-Origin: " . esc_url_raw($origin));
+                } else {
+                    header("Access-Control-Allow-Origin: *");
+                }
+                header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+                header("Access-Control-Allow-Credentials: true");
+                header("Access-Control-Allow-Headers: Authorization, Content-Type, X-Requested-With");
+
+                if ('OPTIONS' === $_SERVER['REQUEST_METHOD']) {
+                    status_header(200);
+                    exit();
+                }
+
+                return $served;
+            }, 10, 4);
+
             $routes = [
                 'settings' => [
                     'methods' => 'POST',
