@@ -150,9 +150,6 @@ class MainApiRouter
 
         error_log("Email sending attempt to $to. Result: " . ($emailResponse ? 'Success' : 'Failure'));
 
-        // Trigger Real-time Webhook to Google Sheets (Non-blocking / Background)
-        $this->trigger_google_webhook($resp);
-
         if (!$emailResponse) {
             error_log('Email sending failed. Last error: ' . print_r(error_get_last(), true));
             
