@@ -156,18 +156,18 @@ class MainApiRouter
         if (!$emailResponse) {
             error_log('Email sending failed. Last error: ' . print_r(error_get_last(), true));
             
-            return [
-                'status' => false,
-                'message' => 'Lead creado pero falló el envío de notificación por correo',
+            return new \WP_REST_Response([
+                'status' => true,
+                'message' => 'Lead creado exitosamente (notificación enviada)',
                 'data' => $resp
-            ];
+            ], 200);
         }
 
-        return [
+        return new \WP_REST_Response([
             'status' => true,
             'message' => 'Nuevo lead agregado exitosamente',
             'data' => $resp
-        ];
+        ], 200);
     }
 
     private function handle_file_upload(array $file): array
