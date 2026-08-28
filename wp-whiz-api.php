@@ -33,7 +33,22 @@ $views = new WhizViews();
 $migrations = new WhizMigrationCore();
 $api_router = new MainApiRouter();
 
-//
+// Global CORS Handling for REST API Requests
+add_action('init', function () {
+    // Handle CORS during init to catch preflight OPTIONS requests early before REST API routing
+    if (isset($_SERVER['HTTP_ORIGIN'])) {
+        header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");
+        header("Access-Control-Allow-Methods: POST, GET, OPTIONS, PUT, DELETE");
+        header("Access-Control-Allow-Credentials: true");
+        header("Access-Control-Allow-Headers: Authorization, Content-Type, X-Requested-With, X-WP-Nonce");
+    }
+
+    if (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+        status_header(200);
+        exit();
+    }
+});
+
 add_action('admin_enqueue_scripts', function () {
     wp_register_style('admin_css_for_whiz', constant('WHIZ_API_PLUGIN_BASE_URI') . 'public/css/app.css', false, '1.5.0');
     wp_enqueue_style('admin_css_for_whiz');
