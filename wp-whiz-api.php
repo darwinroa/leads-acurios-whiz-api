@@ -3,7 +3,7 @@
  * Plugin Name:       Whiz Api
  * Plugin URI:        https://github.com/darwinroa/leads-acurios-whiz-api
  * Description:       Integracion de Whiz
- * Version:           2.0.0
+ * Version:           2.0.1
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Franco Caballero, Hendry M. Flores & Darwin Roa
