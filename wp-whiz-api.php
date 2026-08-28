@@ -57,21 +57,22 @@ add_action('admin_enqueue_scripts', function () {
 //wp_mail overwrite
 function whiz_wp_mail($to, $subject, $message, $headers = '', $attachments = [])
 {
-    ;
     try {
         $whiz_api = new WhizApiService();
         if (is_array($to)) {
+            $resp = true;
             foreach ($to as $to_) {
-                $resp = [];
-                $resp[] = $whiz_api->send_email($to_, $subject, $message);
+                $res = $whiz_api->send_email($to_, $subject, $message);
+                if (!$res) $resp = false;
             }
+            return $resp;
         } else {
-            $resp = $whiz_api->send_email($to, $subject, $message);
+            return $whiz_api->send_email($to, $subject, $message);
         }
-    } catch (Exception $e) {
+    } catch (\Throwable $e) {
+        error_log('[whiz_wp_mail Error]: ' . $e->getMessage());
         return false;
     }
-    return $resp;
 }
 
 
